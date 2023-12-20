@@ -4,14 +4,16 @@
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <Version>0.0.1</Version>
+        <Title>Cobalt Cosmos Connector</Title>
+        <Authors>DevWithTheDan</Authors>
+        <Description>A package library to assist connecting to Azure Cosmos</Description>
+        <PackageProjectUrl>https://github.com/DevWithTheDan/Cobalt.CosmosConnector</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/DevWithTheDan/Cobalt.CosmosConnector/blob/main/LICENSE</PackageLicenseUrl>
+        <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     </PropertyGroup>
 
     <ItemGroup>
       <PackageReference Include="Microsoft.Azure.Cosmos" Version="3.37.0" />
     </ItemGroup>
-
-    <ItemGroup>
-      <Compile Remove="Class1.cs" />
-    </ItemGroup>
-
 </Project>
