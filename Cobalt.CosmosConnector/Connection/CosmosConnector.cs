@@ -2,9 +2,9 @@
 
 namespace Cobalt.CosmosConnector.Connection;
 
-public class CosmosConnection : ICosmosConnector
+///  <inheritdoc />
+public class CosmosConnector : ICosmosConnector
 {
-
     /// <inheritdoc />
     public Task<CosmosClient> GetClient(string connectionString)
     {

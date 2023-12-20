@@ -2,6 +2,9 @@
 
 namespace Cobalt.CosmosConnector.Model;
 
+/// <summary>
+///  Base cosmos model to provide a default set of settings for each id
+/// </summary>
 public class BaseCosmosModel
 {
     /// <summary>

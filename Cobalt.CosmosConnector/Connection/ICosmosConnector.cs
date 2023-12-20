@@ -2,6 +2,9 @@
 
 namespace Cobalt.CosmosConnector.Connection;
 
+/// <summary>
+/// Provides connections to cosmos
+/// </summary>
 public interface ICosmosConnector
 {
     /// <summary>
