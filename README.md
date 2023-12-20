@@ -4,8 +4,9 @@ This library will help get you connected to cosmos, it provides a base cosmos mo
 
 ### Contents 
 - Connection
-- Cosmos Repository
 - Model
+- Cosmos Repository
+- Example Implementation
 
 
 ### A few things you need to know first
@@ -46,3 +47,7 @@ This will give you basic functionality covering:
 - Add New
 - Upsert
 - Delete
+
+### Example implemenation
+
+A simple web API you can clone and connect to your Azure cosmos repo to demonstrate an example usage
